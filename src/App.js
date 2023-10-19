@@ -169,7 +169,6 @@ class App extends Component {
     const {
       appClass, bgStyle, backgroundMode, devIntro, devDesc, icons
     } = this.state;
-
     return (
       <div className={ appClass } style={ bgStyle }>
         <div className="change-mode" onClick={this.changeThemeMode} />
@@ -178,6 +177,22 @@ class App extends Component {
           onClick={this.changeBackgroundBasedonMode}>
           <main className="App-main">
             <h1 className="intro">{ devIntro }</h1>
+            <div>PGP Fingerprint</div>
+            <div className='pgp'>0679 F7E2 7BD5 D1E2 0127 6B44 B4DC BC38 73DD 5DA9</div>
+            <span id='span-center'>
+              <div id="div-pgp" class="img__wrap">
+                <i class="fa fa-keybase"></i>
+                <div class="img__description_layer">
+                  <a target="_blank" rel="noopener noreferrer" class="img__description" href="https://keybase.io/tech_nickel">keybase.io</a>
+                </div>
+              </div>
+              <div id='div-pgp' class="img__wrap">
+                <i class="fa fa-key"></i>
+                <div class="img__description_layer">
+                  <a target="_blank" rel="noopener noreferrer" class="img__description" href="https://keys.openpgp.org/search?q=0679F7E27BD5D1E201276B44B4DCBC3873DD5DA9">keys.openpgp.org</a>
+                </div>
+              </div>
+            </span>
             <div className="tagline">
               <Typist>{ devDesc }</Typist>
             </div>
@@ -188,7 +203,7 @@ class App extends Component {
                   rel="noopener noreferrer"
                   href={ `${icon.url}` }
                 >
-                  <i className={ `fab ${icon.image}` } />
+                  <i className={ `fa ${icon.image}` } />
                 </a>
               ))}
             </div>

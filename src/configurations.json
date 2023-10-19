@@ -2,12 +2,12 @@
   "backgroundType": "plain",
   "plainBackgroundMode": "daylight",
   "devIntro": "Hi, I am Nicola!",
-  "devDesc": "Passionate about technology and IT security - Proud co-founder of Schiller-LAN e.V. - Constantly learning and adapting to stay ahead in the game",
-  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "devDesc": "Security 🔑 | Event technology💡🎚️ | Home cinema 📽️ | Model flight 🛩️ | Schiller-LAN e.V. 🕹️",
+  "gradientColors": "#23D5AB, #23A6D5, #E73C7E, #282c34, #282c34",
   "backgroundImageUrl": "http://hdwpro.com/wp-content/uploads/2017/03/Art-Background-Image.png",
   "icons": [
     {
-      "image": "fa-matrix",
+      "image": "fa-matrix-org",
       "url": "https://matrix.to/#/@tech_nickel:matrix.tech-nickl.de"
     },
     {
@@ -23,7 +23,7 @@
       "url": "https://www.linkedin.com/in/jaegernicola/"
     },
     {
-      "image": "fa-mail",
+      "image": "fa-envelope",
       "url": "mailto:mail@jaegernicola.de"
     }
   ]

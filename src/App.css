@@ -11,6 +11,24 @@
   font-size: calc(10px + 2vmin);
 }
 
+.pgp {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 2em;
+}
+
+.icon-description {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1em;
+}
+
+.icon-description:hover { 
+  transform: scale(1.05);
+  transition-duration: .2s;
+  transition-property: transform;
+}
+
 .tagline {
   font-size: 1.5rem;
   margin: 1.5rem 0;
@@ -34,7 +52,7 @@
 }
 
 .icons-social i {
-  padding: 10px;
+  padding: 15px;
   font-size: 2em;
 }
 
@@ -62,6 +80,65 @@
   }
 }
 
+.fa:hover {
+  transform: scale(1.05);
+  transition-duration: .2s;
+  transition-property: transform;
+}
+
+a {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+#span-center { 
+  justify-content: center;
+}
+
+#div-pgp {
+  display: inline;
+  padding: 1.5em;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .3s;
+  transform: translateY(1em);
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
 /* Daylight CSS */
 
 .daylight .App-main {
@@ -71,7 +148,7 @@
 
 .daylight .change-mode:before {
   color: yellow;
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'forkawesome';
   font-weight: 400;
   content: '\f185';
 }
@@ -93,7 +170,7 @@
 
 .nightlight .change-mode:before {
   color: black;
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'forkawesome';
   font-weight: 400;
   content: '\f186';
 }
@@ -158,7 +235,7 @@
 /* torquoise CSS */
 
 .torquoise .App-main {
-  background-color: #1abc9c;
+  background-color: #398677;
   color: #fff;
 }
 
@@ -203,7 +280,7 @@
 /* carrot CSS */
 
 .carrot .App-main {
-  background-color: #e67e22;
+  background-color: #976132;
   color: #fff;
 }
 
@@ -218,7 +295,7 @@
 /* alizarin CSS */
 
 .alizarin .App-main {
-  background-color: #e74c3c;
+  background-color: #72342d;
   color: #fff;
 }
 
