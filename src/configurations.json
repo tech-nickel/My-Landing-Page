@@ -7,6 +7,10 @@
   "backgroundImageUrl": "http://hdwpro.com/wp-content/uploads/2017/03/Art-Background-Image.png",
   "icons": [
     {
+      "image": "fa-matrix",
+      "url": "https://matrix.to/#/@tech_nickel:matrix.tech-nickl.de"
+    },
+    {
       "image": "fa-mastodon",
       "url": "https://ioc.exchange/@nickel"
     },
