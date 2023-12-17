@@ -220,16 +220,16 @@ a {
 /* terminal CSS */
 
 .terminal .App-main {
-  background-color: #1565c0;
-  color: #ffeb3b;
+  background-color: #4c1130;
+  color: #fff;
 }
 
 .terminal .icons-social a {
-  color: #ffeb3b;
+  color: #fff;
 }
 
 .terminal .icons-social a svg path {
-  fill: #ffeb3b;
+  fill: #fff;
 }
 
 /* torquoise CSS */
@@ -250,7 +250,7 @@ a {
 /* peterriver CSS */
 
 .peterriver .App-main {
-  background-color: #3498db;
+  background-color: #225171;
   color: #fff;
 }
 
